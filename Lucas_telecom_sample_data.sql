@@ -297,7 +297,7 @@ INSERT INTO Payment (bill_id, payment_date, payment_amount, payment_method) VALU
     15, '2024-05-15 14:00:00', 49.99, 'Credit Card'
 ),
 (
-    17, '2024-05-16 15:00:00', 14.99, 'Bank Transfer'
+    16, '2024-05-16 15:00:00', 14.99, 'Bank Transfer'
 );
 
 
