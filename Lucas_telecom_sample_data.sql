@@ -54,7 +54,7 @@ INSERT INTO Subscription (customer_id, plan_id, start_date, end_date, status) VA
     5, 4, '2023-06-01', NULL, 'Active'
 );
 
-INSERT INTO Usage (subscription_id, usage_date, data_used_gb, sms_sent, call_minutes_used, usage_type, destination_number, duration_seconds) VALUES
+INSERT INTO UsageRec (subscription_id, usage_date, data_used_gb, sms_sent, call_minutes_used, usage_type, destination_number, duration_seconds) VALUES
 (
     1, '2024-05-01 10:00:00', 0.5, 0, 0, 'Data', NULL, NULL
 ),
@@ -199,7 +199,7 @@ INSERT INTO Subscription (customer_id, plan_id, start_date, end_date, status) VA
 );
 
 -- Additional Usage Records (for various subscriptions)
-INSERT INTO Usage (subscription_id, usage_date, data_used_gb, sms_sent, call_minutes_used, usage_type, destination_number, duration_seconds) VALUES
+INSERT INTO UsageRec (subscription_id, usage_date, data_used_gb, sms_sent, call_minutes_used, usage_type, destination_number, duration_seconds) VALUES
 (
     7, '2024-05-06 08:00:00', 1.2, 0, 0, 'Data', NULL, NULL
 ),

@@ -36,7 +36,7 @@ CREATE TABLE Subscription (
     FOREIGN KEY (plan_id) REFERENCES ServicePlan(plan_id)
 );
 
-CREATE TABLE Usage (
+CREATE TABLE UsageRec (
     usage_id INT AUTO_INCREMENT PRIMARY KEY,
     subscription_id INT NOT NULL,
     usage_date DATETIME NOT NULL,
